@@ -81,7 +81,6 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
 }
 
 p {
@@ -360,7 +359,6 @@ template {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -10153,12 +10151,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: #fff;
+    color: #397470;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: #fff;
+    color: #397470;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10170,10 +10168,10 @@ body {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000000;
+    color: #397470;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #397470;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -10206,7 +10204,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 7rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 75%, #000000 100%), url("../assets/img/sealk_landing_page.jpg");
+  background: rgba(255, 255, 255, 0.3), url("../assets/img/sealk_landing_page.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10217,14 +10215,15 @@ body {
   font-size: 1.5rem;
   line-height: 1.5rem;
   letter-spacing: 0.3rem;
-  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.164));
+  margin-bottom: 30 rem;
+  background: linear-gradient(rgb(52, 58, 64), rgba(52, 58, 64, 0.164));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
 }
 .masthead h2 {
   font-size: 1rem;
-  color: #ffffff;
+  color: #343a40;
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10248,11 +10247,19 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 7rem 0;
+  background: #64a19d;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .about-section p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-section {
